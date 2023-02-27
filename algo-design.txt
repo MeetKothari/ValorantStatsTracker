@@ -1,0 +1,7 @@
+- Collect data for each player, including their role, win percentage, KAST, Score/Round, and DDDelta per round.
+- For each role, calculate the average win percentage, KAST, Score/Round, and DDDelta per round of players in that role.
+- Normalize each performance metric by subtracting the role average and dividing by the role standard deviation.
+- Calculate a composite score for each player by weighting each normalized performance metric by a factor that represents the relative importance of that metric. For example, the weighting factors might be: win percentage 0.4, KAST 0.2, Score/Round 0.2, and DDDelta per round 0.2.
+- Multiply the composite score by a factor that represents the player's suitability for their role. For example, a player who is playing their preferred role might have a suitability factor of 1, while a player who is playing a role they are less comfortable with might have a suitability factor of 0.8.
+- Rank the players by their composite score, with higher scores indicating better performance.
+- Use the rankings to make decisions about team composition and strategy. For example, you might prioritize players with high composite scores when selecting the starting lineup or deciding which players to assign to different positions on the map.
