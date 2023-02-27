@@ -1,0 +1,4 @@
+The program currently uses a switch-type convention to only allow users to choose functions defined for the program. 
+
+Right now, this includes:
+- displaying your all-time agent data
