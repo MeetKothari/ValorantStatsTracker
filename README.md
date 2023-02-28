@@ -2,9 +2,9 @@
 As someone who enjoys playing Valorant and has a passion for data, I found multiple faults in the integrity of the algorithm used on tracker.gg, and sought to make one that's better. This repo contains the code for that. This is currently a WIP, though you can find current functionality in the 'commands.txt' file which is provided in this repo.
 
 # Requirements
-This project requires Python 3 and a number of Python libraries. If you don't have Python downloaded, you can find it here: https://www.python.org/downloads/release/python-3112/
+:thought_balloon: This project requires Python 3 and a number of Python libraries. If you don't have Python downloaded, you can find it here: https://www.python.org/downloads/release/python-3112/
 
-The IDE, or text editor you use is entirely up to you, though I have created this project using 'VIM' and 'VSCODE', mainly. If your only goal is to *run* the tracker, you do not need one, but if you would like to contribute or improve upon it, you may do so, provided you fork this repo and just give me a shoutout!
+:point_right: The IDE, or text editor you use is entirely up to you, though I have created this project using 'VIM' and 'VSCODE', mainly. If your only goal is to *run* the tracker, you do not need one, but if you would like to contribute or improve upon it, you may do so, provided you fork this repo and just give me a shoutout!
 
 You can look in the requirements.txt file for a comprehensive compendium, and you can install the required packages by running the following command in your terminal:
 
