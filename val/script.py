@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from prettytable import PrettyTable
 
 agentList = {} # for eventual agents
-agent_percentages = {}
+agent_percentages = {} # for eventual percentages
 
 # For role mapping
 roles = {
@@ -33,11 +33,11 @@ table_data = {}
 
 
 # dynamic user retrieval, commented out for testing purposes
-# username, tagline = input("Enter your username on Valorant, followed by your tagline(this is the part of your username following the '#'): ").split()
+username, tagline = input("Enter your username on Valorant, followed by your tagline (this is the part of your username following the '#'): ").split()
 
-username = "meetydactyl"
-tagline = "wacky"
-
+# for repeated use, you can hard code your own values in here
+# username 
+# tagline 
 
 # Define the URL to scrape
 url = "https://tracker.gg/valorant/profile/riot/"+username+"%23"+tagline+"/agents?season=all"
@@ -139,6 +139,13 @@ def role_suitability():
           Simply put, it's impossible to grade every person, truthfully, using the same metrics. Roles like duelists are expected to get kills, whereas
           roles like sentinels aren't meant to frag. Sure, your role does not define you, but, overwhelmingly, data shows that different
           roles play differently. That's why I created this metric, that shows you your 'role suitability.' and its uses as a multiplier when it comes to K/D ratio.
+          
+          These are the corresponding multipliers based on roles:
+          
+          Duelist- [1], because this is the point of the role.
+          Initator- [1.05], this is one of the major parts of the role.
+          Controller- [1.15], controllers, ideally, should focus on staying alive and providing utility for their teams.
+          Sentinel- [1.25], easily the least agressive role on paper, your main utility is the provide your team with support.
           """)
     # Create a dictionary to store the percentages for each role
     role_percentages = {"Controller": [], "Sentinel": [], "Initiator": [], "Duelist": []}
@@ -164,16 +171,6 @@ def role_suitability():
 
     print(
         f"\nBased on your stats, it's clear that your role suitability is geared toward {highest_role} with a pick-rate of {highest_percentage:.2f}%. Your multiplier is {role_multipliers[highest_role]}.")
-
-    print(""" 
-          
-          These are the corresponding multipliers based on roles:
-          
-          Duelist- [1], because this is the point of the role.
-          Initator- [1.05], this is one of the major parts of the role.
-          Controller- [1.15], controllers, ideally, should focus on staying alive and providing utility for their teams.
-          Sentinel- [1.25], easily the least agressive role on paper, your main utility is the provide your team with support.
-          """)
 
     
 
