@@ -1,4 +1,4 @@
-# Welcome!  :bowtie:
+# Welcome! :star:
 As someone who enjoys playing Valorant and has a passion for data, I found multiple faults in the integrity of the algorithm used on tracker.gg, and sought to make one that's better. This repo contains the code for that. This is currently a WIP, though you can find current functionality in the 'commands.txt' file which is provided in this repo. :blue_heart:
 
 # Requirements
