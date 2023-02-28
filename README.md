@@ -6,9 +6,9 @@ As someone who enjoys playing Valorant and has a passion for data, I found multi
 
 :point_right: The IDE, or text editor you use is entirely up to you, though I have created this project using 'VIM' and 'VSCODE', mainly. If your only goal is to *run* the tracker, you do not need one, but if you would like to contribute or improve upon it, you may do so, provided you fork this repo and just give me a shoutout!
 
-You can look in the requirements.txt file for a comprehensive compendium, and you can install the required packages by running the following command in your terminal:
+:mag_right: You can look in the requirements.txt file for a comprehensive compendium, and you can install the required packages by running the following command in your terminal:
 
-`pip install -r requirements.txt`
+:computer: `pip install -r requirements.txt`
 
 If this throws an error, you likely don't have PIP. If you aren't familiar with PIP, all you really need to know is that PIP is a package management system used to install and manage software packages written in Python. It stands for “preferred installer program” or “Pip Installs Packages.” In layman's terms, it makes your life easier by allowing you to deploy installations from the command line. Though, to be honest, PIP is automatically installed with Python 2.7.9+ and Python 3.4+ so you *should* have it.
 
@@ -16,10 +16,10 @@ If you don't, launch the command prompt window, press Windows Key + X, and click
 
 I recommend using a virtual environment to manage your Python dependencies. You can create and activate a virtual environment by running the following commands:
 
-`python3 -m venv env
+:computer: `python3 -m venv env
 source env/bin/activate`
 
 After activating the virtual environment, you can install the required packages by running: 
-`pip install -r requirements.txt.`
+:computer:`pip install -r requirements.txt.`
 
-From there, simply run the command: `python3 script.py` and the rest should handle itself. Happy analyzing!
+From there, simply run the command: :computer:`python3 script.py` and the rest should handle itself. Happy analyzing!
