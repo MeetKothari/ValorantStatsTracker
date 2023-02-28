@@ -1,4 +1,6 @@
-The program currently uses a switch-type convention to only allow users to choose functions defined for the program. 
+The program currently uses a switch-statement-type convention to only allow users to choose functions defined for the program. 
 
 Right now, this includes:
 - displaying your all-time agent data
+- showing you percentages based on who you play, and what role fits you
+- calculating and explaining the 'concept of role suitability
