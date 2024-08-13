@@ -1,3 +1,5 @@
+Current design:
+
 - Collect data for each player, including their role, win percentage, KAST, Score/Round, and DDDelta per round.
 - For each role, calculate the average win percentage, KAST, Score/Round, and DDDelta per round of players in that role.
 - Normalize each performance metric by subtracting the role average and dividing by the role standard deviation.
