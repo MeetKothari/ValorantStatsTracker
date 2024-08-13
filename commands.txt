@@ -1,4 +1,4 @@
-The program currently uses a switch-statement-type convention to only allow users to choose functions defined for the program. 
+The program currently uses a switch-statement-type convention to only allow users to choose functions defined for the program. This may be updated at a later date.
 
 Right now, this includes:
 - displaying your all-time agent data
