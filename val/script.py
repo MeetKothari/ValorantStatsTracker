@@ -26,7 +26,9 @@ roles = {
     "Sage": "Sentinel",
     "Omen": "Controller",
     "Raze": "Duelist",
-    "KAY/O": "Initiator"
+    "KAY/O": "Initiator",
+    "Clove": "Controller",
+    "Iso": "Duelist"
 }
 # Create a new dictionary to store all the data for the table
 table_data = {}
